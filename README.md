@@ -21,17 +21,17 @@ Three AI agents with structurally differentiated roles debate a question in para
 
 ## The RDAC Model
 
-| Dimension | Description |
-|-----------|-------------|
-| **R** — Role Differentiation | Each agent holds a structurally distinct perspective (Logic / Emotion / Meta-View) |
-| **D** — Information Density | Each agent receives the same question at a different level of context density |
-| **A** — Architecture | Three agents + one Diff AI + Human-in-the-Loop = a 5-layer system |
-| **C** — Convergence Detection | Automatic detection of when debate has reached genuine depth |
+| Dimension                     | Description                                                                        |
+| ----------------------------- | ---------------------------------------------------------------------------------- |
+| **R** — Role Differentiation  | Each agent holds a structurally distinct perspective (Logic / Emotion / Meta-View) |
+| **D** — Information Density   | Each agent receives the same question at a different level of context density      |
+| **A** — Architecture          | Three agents + one Diff AI + Human-in-the-Loop = a 5-layer system                  |
+| **C** — Convergence Detection | Automatic detection of when debate has reached genuine depth                       |
 
-> **Key insight:** V × D must be controlled *independently* to prevent synchrony bias.  
+> **Key insight:** V × D must be controlled _independently_ to prevent synchrony bias.  
 > When all agents receive the same density, they converge prematurely regardless of role.
 
-**Paper:** Ishikawa, M. (2026). *RDAC: Relational Density, Diversity, Stability, and Closure.*  
+**Paper:** Ishikawa, M. (2026). _RDAC: Relational Density, Diversity, Stability, and Closure._  
 DOI: [https://doi.org/10.5281/zenodo.18859272](https://doi.org/10.5281/zenodo.18859272)
 
 ---
@@ -94,6 +94,7 @@ tri_brain_v2/
 ```
 
 **To switch to English session** — edit one line in `core.py` and `main.py`:
+
 ```python
 # Change this:
 from prompts_ja import ...
@@ -176,11 +177,11 @@ B: Regard unobservable as still possible / Gain: precautionary protection  Loss:
 
 The system automatically checks for convergence after Round 4 using three conditions:
 
-| Condition | Description |
-|-----------|-------------|
-| **Axis Lock** | The same conflict dimension appears in 2 consecutive rounds |
+| Condition                 | Description                                                   |
+| ------------------------- | ------------------------------------------------------------- |
+| **Axis Lock**             | The same conflict dimension appears in 2 consecutive rounds   |
 | **Assumption Exhaustion** | New hidden assumptions no longer change the problem structure |
-| **Policy Exhaustion** | New reframed questions are extensions of previous ones |
+| **Policy Exhaustion**     | New reframed questions are extensions of previous ones        |
 
 Convergence triggers when: (Axis Lock AND Assumption Exhaustion) OR (Axis Lock AND Policy Exhaustion)
 
@@ -212,7 +213,21 @@ GNU AGPLv3 with Commons Clause
 - ✔ Modification and redistribution (with source disclosure): permitted under AGPLv3
 - ✗ Commercial use (SaaS, products, paid services): prohibited without permission
 
-For commercial licensing: [@PhantomOdysseyAI](https://x.com/PhantomOdysseyAI) on X
+**Commercial licensing available.**  
+If you want to use this system in a commercial product, service, or organization, a separate commercial license can be issued. Contact via DM on X.
+
+For commercial licensing inquiries: [@PhantomOdysseyAI](https://x.com/PhantomOdysseyAI) on X
+
+---
+
+## Support
+
+If this research was useful to you, consider supporting the author:
+
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-PhantomOdysseyAI-ea4aaa?logo=github-sponsors)](https://github.com/sponsors/phantomodysseyai-rgb)
+
+This is an independent research project with no institutional funding.  
+Even a small contribution helps sustain continued development and research.
 
 ---
 
@@ -221,4 +236,5 @@ For commercial licensing: [@PhantomOdysseyAI](https://x.com/PhantomOdysseyAI) on
 **Masanao Ishikawa (Phantom Odyssey AI)**  
 Independent researcher & creator  
 X: [@PhantomOdysseyAI](https://x.com/PhantomOdysseyAI)  
-Zenodo: [https://doi.org/10.5281/zenodo.18859272](https://doi.org/10.5281/zenodo.18859272)
+Zenodo: [https://doi.org/10.5281/zenodo.18859272](https://doi.org/10.5281/zenodo.18859272)  
+GitHub Sponsors: [https://github.com/sponsors/phantomodysseyai-rgb](https://github.com/sponsors/phantomodysseyai-rgb)
