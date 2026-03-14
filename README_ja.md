@@ -220,7 +220,7 @@ X（旧Twitter）のDMからお問い合わせください。
 
 ## 作者
 
-**石川 昌直（Phantom Odyssey AI）**  
+**Masanao Ishikawa（Phantom Odyssey AI）**  
 独立研究者・クリエイター  
 コンビニ店長として働きながら、哲学・AI・創作を探求しています。
 
