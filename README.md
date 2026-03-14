@@ -7,6 +7,8 @@
 [![License: AGPLv3 + Commons Clause](https://img.shields.io/badge/License-AGPLv3%20%2B%20Commons%20Clause-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/)
 
+[日本語版READMEはこちら / Japanese README](README_ja.md)
+
 ---
 
 ## What is this?
