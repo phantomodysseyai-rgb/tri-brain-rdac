@@ -1,0 +1,9 @@
+﻿*.html
+__pycache__/
+*.pyc
+tri_brain_live.html
+.env
+
+openai_keys.txt
+
+tri_brain_state.json
