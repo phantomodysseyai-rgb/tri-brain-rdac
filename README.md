@@ -237,6 +237,6 @@ Even a small contribution helps sustain continued development and research.
 
 **Masanao Ishikawa (Phantom Odyssey AI)**  
 Independent researcher & creator  
-X: [@PhantomOdysseyAI](https://x.com/PhantomOdysseyAI)  
+X: [@PhantysseyAI](https://x.com/PhantysseyAI)  
 Zenodo: [https://doi.org/10.5281/zenodo.18859272](https://doi.org/10.5281/zenodo.18859272)  
 GitHub Sponsors: [https://github.com/sponsors/phantomodysseyai-rgb](https://github.com/sponsors/phantomodysseyai-rgb)
