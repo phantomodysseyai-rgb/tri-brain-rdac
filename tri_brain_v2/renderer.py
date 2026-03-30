@@ -18,6 +18,7 @@ Both functions are language-agnostic: they render whatever text is passed in.
 from http.server import HTTPServer, SimpleHTTPRequestHandler
 import threading
 import os
+from config import MAX_ROUND, CONVERGENCE_ROUND, HTTP_PORT
 
 def save_html(question, answers, diff, synthesis, answers2, diff2, final):
     from datetime import datetime
@@ -988,7 +989,7 @@ setTimeout(poll, 3000);
 # ============================================================
 # 簡易HTTPサーバー（CORS回避のため file:// の代わりに http:// で配信）
 # ============================================================
-HTTP_PORT = 8765
+# HTTP_PORT is imported from config.py
 
 
 
